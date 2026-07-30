@@ -1,0 +1,42 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Output directories
+Output_1to3/
+Output_2to4/
+Output_test/
+Video/
+
+# Test generated videos (keep folder structure but ignore files)
+Video/Test/*
+!Video/Test/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.temp_video.mp4
+*.temp_audio.wav
+
+# IDE
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Packaging
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+htmlcov/

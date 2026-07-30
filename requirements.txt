@@ -1,0 +1,4 @@
+opencv-python
+pydub
+audioop-lts
+librosa
