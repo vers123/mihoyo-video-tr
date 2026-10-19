@@ -5,6 +5,8 @@
 
 | Language / 语言 | [English](README.md) | [中文](README_zh.md) |
 
+> **Disclaimer**: This project is for learning and technical research only. It does not contain or distribute any game assets or data, and is not affiliated with miHoYo / HoYoverse or its affiliates.
+
 A video/audio frame swapping tool based on OpenCV and FFmpeg.  
 It can group video frames into fixed-size groups, swap **two specified ranges** of frames within each group, and **swap the corresponding audio segments** synchronously, creating creative effects like "glitch art" or rhythm displacement.
 
